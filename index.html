@@ -5,16 +5,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>নওগাঁ সরকারি কলেজ</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <!-- header section -->
     <header class="header" role="banner">
-        <div class="header-inner clearfix">
-            <a class="brand pull-left" href="/">
-                <img src="https://naogc.edu.bd/images/Baner-maker5-5.jpg" alt="তথ্য সেবায় নওগাঁ সরকারি কলেজ" />
-            </a>
+        <div class="header-inner container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <a class="brand" href="/">
+                        <img src="https://naogc.edu.bd/images/Baner-maker5-5.jpg" alt="নওগাঁ সরকারি কলেজ"
+                            class="img-fluid">
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Navigation items go here -->
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">হোম</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">আমাদের কথা</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">অধ্যক্ষের কার্যালয়</a></li>
+                            <li><a href="#">গ্রন্থাগার</a></li>
+                            <li><a href="#">মাল্টিমিডিয়া ল্যাব</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">শিক্ষক</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">শিক্ষকবৃন্দের তালিকা</a></li>
+                            <li><a href="#">কর্মরত শিক্ষকবৃন্দের তালিকা</a></li>
+                            <li><a href="#">শিক্ষকবৃন্দের দৈনিক হাজিরা</a></li>
+                            <li><a href="#">শিক্ষকবৃন্দের ছুটির তালিকা</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">শিক্ষার্থী</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">নোটিশ বোর্ড</a></li>
+                            <li><a href="#">একাডেমিক ক্যালেন্ডার</a></li>
+                            <li><a href="#">ক্লাস রুটিন</a></li>
+                            <li><a href="#">ক্লাসের উপস্থিতি</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">অভিভাবক</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">মতামত</a></li>
+                            <li><a href="#">একাডেমিক ক্যালেন্ডার</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ডাউনলোড</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">রাজশাহী বোর্ড ফরম ডাউনলোড</a></li>
+                            <li><a href="#">মাউশি ফরম ডাউনলোড</a></li>
+                            <li><a href="#">জাতীয় বিশ্ববিদ্যালয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#">জাতীয় বিশ্ববিদ্যালয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#">উচ্চ মাধ্যমিক সংক্ষিপ্ত সিলেবাস</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">অনলাইন ভর্তি</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ফটোগ্যালারী</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">বিভাগ</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">বিজ্ঞান বিভাগ</a></li>
+                            <li><a href="#">ব্যবসায় বিভাগ</a></li>
+                            <li><a href="#">কলা বিভাগ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">অভ্যন্তরীণ পরীক্ষার ফলাফল</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">দ্বাদশ ভর্তি ফরম ২০২২-২০২৩</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Body in the middle section -->
+            <main role="main" class="col-md-8 ml-sm-auto col-lg-8 px-md-4">
+                <!-- Body content goes here -->
+                 
+            </main>
+
+            <!-- Biography and Notice in the right sidebar -->
+            <aside class="col-md-2 d-none d-md-block sidebar-right">
+                <!-- Biography and Notice content goes here -->
+                
+            </aside>
+        </div>
+    </div>
 </body>
 
 </html>
