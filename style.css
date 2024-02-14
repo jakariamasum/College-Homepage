@@ -15,3 +15,8 @@
 .dropdown-menu li {
     margin-left: 20px;
 }
+#carouselExampleSlidesOnly img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
