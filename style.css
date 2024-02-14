@@ -20,3 +20,8 @@
     height: 400px;
     object-fit: cover;
 }
+.custom-cirle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
